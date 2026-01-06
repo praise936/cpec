@@ -19,6 +19,7 @@ import CreateEvent from './pages/Admin/CreateEvent';
 import EditEvent from './pages/Admin/EditEvent';
 import CreateProgram from './pages/Admin/CreateProgram';
 import Users from './pages/Admin/Users';
+import Chat from './pages/Forum/Chat';
 
 // Protected Route Component
 const ProtectedRoute = ({ children, adminOnly = false }) => {
@@ -56,6 +57,7 @@ function App() {
         <Route path="/programs" element={<Programs />} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
+        <Route path="/forum" element={<Chat />} />
 
         {/* Protected Admin Routes */}
         <Route path="/admin/dashboard" element={
