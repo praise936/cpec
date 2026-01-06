@@ -27,8 +27,9 @@ const Navbar = () => {
         { name: 'Home', path: '/' },
         { name: 'Events', path: '/events' },
         { name: 'Programs', path: '/programs' },
-        { name: 'Mentorship', path: '/mentorship' },
+        { name: 'Mentorship', path: '/events' },
         { name: 'Network', path: '/network' },
+        { name: 'forum', path: '/events' },
     ];
 
     return (
@@ -239,7 +240,7 @@ const Navbar = () => {
                         </Link>
 
                         <Link
-                            to="/certification"
+                            to="/events"
                             className="sidebar-nav-link"
                             onClick={() => setIsMobileMenuOpen(false)}
                         >
