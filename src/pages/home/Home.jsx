@@ -94,7 +94,7 @@ const Home = () => {
         },
         {
             icon: '📊',
-            title: 'Analytics Dashboard',
+            title: 'Analytic Dashboard',
             description: 'Track platform growth and engagement metrics.',
             link: '/admin/dashboard',
             color: 'linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)',
